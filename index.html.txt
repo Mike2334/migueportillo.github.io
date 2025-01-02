@@ -3,32 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio en Línea</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Portafolio de [Tu Nombre]</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi Portafolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#educacion">Educación</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#musica">Música</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>Ingeniero en Sistemas | Músico | Mixerista de Escenarios</p>
     </header>
-    <main>
-        <section id="inicio">
-            <h2>Inicio</h2>
-            <p>Hola, soy [Tu Nombre], Ingeniero en Sistemas con una pre-Especialidad en Innovación Tecnológica en la Industria 4.0.</p>
-        </section>
-        <!-- Puedes agregar más secciones aquí -->
-    </main>
+    <nav>
+        <a href="#sobre-mi">Sobre Mí</a> | 
+        <a href="#proyectos">Proyectos</a> | 
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Soy Ingeniero en Sistemas con una especialidad en Innovación Tecnológica en la Industria 4.0. Además, soy músico en <strong>Impacto Latino</strong> y trabajo como mixerista de escenarios y operador de pantallas LED.</p>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li><strong>Producción de Audio en Vivo</strong> - Mixerista en eventos y escenarios</li>
+            <li><strong>Clases de Guitarra</strong> - Talleres en Universidad Gerardo Barrios</li>
+            <li><strong>Renta de Equipos</strong> - Sonido para iglesias, bares y eventos al aire libre</li>
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de:</p>
+        <ul>
+            <li>Email: <a href="mailto:tuemail@gmail.com">tuemail@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/tunombre">github.com/tunombre</a></li>
+            <li>LinkedIn: <a href="#">linkedin.com/tunombre</a></li>
+        </ul>
+    </section>
     <footer>
-        <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+        <p>© 2024 [Tu Nombre] | Portafolio Personal</p>
     </footer>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
