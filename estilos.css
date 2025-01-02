@@ -43,7 +43,7 @@ nav a:hover {
 /* Sección Sobre Mí */
 #sobremi .fondo {
     position: relative;
-    background-image: url('imagenes/sobremi/sobremi.jpg');
+    background-image: url('imagenes/sobremi/principal.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
