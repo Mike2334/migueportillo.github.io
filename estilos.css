@@ -1,32 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #555;
-    padding: 10px;
-}
-nav a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-section {
-    padding: 20px;
-}
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Hola! Soy Miguel Portillo</h1>
+        <p>Ingeniero en Sistemas | Músico | Mixerista de Escenarios</p>
+        <nav>
+            <a href="#sobremi">Sobre Mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="sobremi">
+        <h2>Sobre Mí</h2>
+        <p>
+            Soy Ingeniero en Sistemas con una especialidad en Innovación Tecnológica en la Industria 4.0. Además, soy músico en <strong>Impacto Latino</strong> y trabajo como mixerista de escenarios y operador de pantallas LED.
+        </p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="tarjeta">
+            <h3>Producción de Audio en Vivo</h3>
+            <p>Mixerista en eventos y escenarios.</p>
+        </div>
+        <div class="tarjeta">
+            <h3>Clases de Guitarra</h3>
+            <p>Talleres en la Universidad Gerardo Barrios.</p>
+        </div>
+        <div class="tarjeta">
+            <h3>Renta de Equipos</h3>
+            <p>Sonido para iglesias, bares y eventos al aire libre.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de:</p>
+        <a href="mailto:tuemail@gmail.com" class="boton">Escríbeme</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Miguel Portillo - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
